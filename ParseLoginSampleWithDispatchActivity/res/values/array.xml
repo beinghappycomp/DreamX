@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="challenge_options">
+        <item>3 days challenge</item>
+        <item>7 days challenge</item>
+        <item>15 days challenge</item>
+        <item>30 days challenge</item>
+    </string-array>
+    <string-array name="snooze_options">
+        <item>Everyday in Morning</item>
+        <item>Everyday in Evening</item>
+        <item>Every alternate day</item>
+    </string-array>
+
+</resources>

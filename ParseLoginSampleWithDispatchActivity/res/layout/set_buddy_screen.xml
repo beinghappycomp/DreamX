@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/app_backgroud_1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/buddy_help"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buddy_help"
+            android:textColor="#00FF00"
+            android:textSize="20sp"
+            android:textStyle="italic|bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/find_buddy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/find_buddy" />
+
+            <Button
+                android:id="@+id/i_am_good"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/i_am_my_best_friend" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/buddy_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buddy_name"
+        android:textColor="#00FF00"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/set_buddy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/set_buddy"
+        android:visibility="gone" />
+
+</LinearLayout>
